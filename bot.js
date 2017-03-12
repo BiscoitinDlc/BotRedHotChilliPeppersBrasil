@@ -1,6 +1,6 @@
-bot = '[Ehaqui Bot]'
-v = '4.5'
-vbot = '[Ehaqui Bot 5.0]'
+bot = '[RHCP Brazil]'
+v = '5.0'
+vbot = '[RHCP Brazil 5.0]'
 autor = 'Biiscoitao'
 API.sendChat(vbot + " Bot iniciado com sucesso!")
 
@@ -88,8 +88,11 @@ function cmds(cmd){
    if(msg=="!pong"){
       API.sendChat(bot + " ping!")     
   } 
+    if(msg=="!californication"){
+      API.sendChat(bot + " is californiqueixon")
+  }   
     if(msg=="!temdecarne"){
-      API.sendChat(bot + " Hm? Hm? Hm?!")
+      API.sendChat(bot + " Hm? Hm? Hm?!")      
   } 
      if(msg=="!edelinguiça"){
       API.sendChat(bot + " HM HM HM HM HM!")      
@@ -132,7 +135,7 @@ function cmds(cmd){
       API.sendChat(bot + " DAHROFUS!")        
   }   
    if(msg=="!comandos"){
-      API.sendChat(bot + "!bot, !biscoito, !v, !jooj, !cookie, !boli, !bolacha, !chapolin, !monstro, !ovo, !darth, !lava, !ping, !musica, !agua, !lag, !fogo, !FUSROHDAH, !jailson, !cafe, !peppa, !pingu, !peça, !ponei, !pao, !kpop, autowoot")
+      API.sendChat(bot + "!bot, !biscoito, !v, !jooj, !cookie, !boli, !bolacha, !chapolin, !monstro, !ovo, !darth, !lava, !ping, !musica, !agua, !lag, !fogo, !FUSROHDAH, !jailson, !cafe, !peppa, !pingu, !peça, !ponei, !pao, !kpop, !autowoot, !porno, !temdecarne, !edelinguiça, !californication")
   }
   }
 
