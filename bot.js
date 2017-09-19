@@ -88,8 +88,8 @@ function cmds(cmd){
    if(msg=="!pong"){
       API.sendChat(bot + " ping!")     
   } 
-    if(msg=="!californication"){
-      API.sendChat(bot + " is californiqueixon")
+    if(msg=="!macaco"){
+      API.sendChat(bot + " Seu preto fudido")
   }   
     if(msg=="!temdecarne"){
       API.sendChat(bot + " Hm? Hm? Hm?!")      
@@ -119,8 +119,8 @@ function cmds(cmd){
    var media = API.getMedia();
    API.sendChat(bot + " Tocando:" + media.author + " - " + media.title)    
   }
-   if(msg=="!agua"){
-      API.sendChat(bot + " Lava!")
+   if(msg=="!trpz"){
+      API.sendChat(bot + " So tem foda")
   }  
    if(msg=="!autowoot"){
       API.sendChat(bot + " http://pastebin.com/gyzZHU8R")          
