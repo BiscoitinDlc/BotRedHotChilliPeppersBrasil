@@ -1,6 +1,6 @@
-bot = '[RHCP Brazil]'
-v = '5.0'
-vbot = '[RHCP Brazil 5.0]'
+bot = '[TRPz BOT]'
+v = '1.2'
+vbot = '[TRPz BOT - By Biiscoitao]'
 autor = 'Biiscoitao'
 API.sendChat(vbot + " Bot iniciado com sucesso!")
 
@@ -10,7 +10,7 @@ API.sendChat(bot + " Tocando:" + media.author + " - " + media.title)
 }
 
 function usrjn(userjoin){
-  API.sendChat(bot + " Seja bem-vindo(a) a o Plugdj Ehaqui! " + userjoin.username)
+  API.sendChat(bot + " Seja bem-vindo(a) a o Plugdj TRPz " + userjoin.username)
 }
 function cmds(cmd){
   var id=cmd.uid;
@@ -59,7 +59,7 @@ function cmds(cmd){
       API.sendChat(bot + " redtube.com Seu punheteiro do crlh")
   }   
    if(msg=="!site"){
-      API.sendChat(bot + " ehaqui.com")     
+      API.sendChat(bot + " www.naotemainda.com")     
   }   
    if(msg=="!ovo"){
       API.sendChat(bot + " Você destruiu meu ovo!")
