@@ -1,8 +1,8 @@
-bot = '[TRPz BOT]'
-v = '1.2'
-vbot = '[TRPz BOT - By Biiscoitao]'
-autor = 'Biiscoitao'
-API.sendChat(vbot + " Bot iniciado com sucesso!")
+bot = '[ArX BoT]'
+v = '1.4a'
+vbot = '[Arx BoT - Biiscoito]'
+autor = 'Biiscoito'
+API.sendChat(vbot + " Bot iniciado com sucesso, digite !comandos para ver mais!")
 
 function msc(music){
 var media = API.getMedia();
@@ -10,7 +10,7 @@ API.sendChat(bot + " Tocando:" + media.author + " - " + media.title)
 }
 
 function usrjn(userjoin){
-  API.sendChat(bot + " Seja bem-vindo(a) a o Plugdj TRPz " + userjoin.username)
+  API.sendChat(bot + " Seja bem-vindo(a) a sala " + userjoin.username)
 }
 function cmds(cmd){
   var id=cmd.uid;
@@ -32,7 +32,7 @@ function cmds(cmd){
     }
   }
   if(msg=="!v"){
-    API.sendChat(bot + " " + v + " beta.")
+    API.sendChat(bot + " " + v + " alpha.")
   }
   if(msg=="!jooj"){
     API.sendChat(bot + " Um bom jooj para você " + use.username + "!" )
