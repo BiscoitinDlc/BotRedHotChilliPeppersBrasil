@@ -1,12 +1,12 @@
 bot = '[ArX BoT]'
 v = '1.4a'
-vbot = '[Arx BoT - Biiscoito]'
+vbot = '[ArX BoT - Biiscoito]'
 autor = 'Biiscoito'
 API.sendChat(vbot + " Bot iniciado com sucesso, digite !comandos para ver mais!")
 
 function msc(music){
 var media = API.getMedia();
-API.sendChat(bot + " Tocando:" + media.author + " - " + media.title)
+API.sendChat(bot + " Tocando: " + media.author + " - " + media.title)
 }
 
 function usrjn(userjoin){
