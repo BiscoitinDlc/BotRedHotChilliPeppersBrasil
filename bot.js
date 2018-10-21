@@ -1,7 +1,7 @@
 bot = '[ArX BoT]'
 v = '1.4a'
-vbot = '[ArX BoT - Biiscoito]'
-autor = 'Biiscoito'
+vbot = '[ArX BoT - b1scoito]'
+autor = 'b1scoito'
 API.sendChat(vbot + " Bot iniciado com sucesso, digite !comandos para ver mais!")
 
 function msc(music){
